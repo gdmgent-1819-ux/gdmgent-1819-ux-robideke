@@ -55,7 +55,7 @@ a {
     color: #FFF;
     font-family: 'Titillium Web', sans-serif;
     text-align: center;
-    transition: all 0.2s ease;
+  
 }
 
 .intro p {
@@ -71,7 +71,6 @@ a {
     font-family: 'Quicksand', sans-serif;
     text-align: left;
 
-    background-color: rgba(192, 192, 192, 0.5)
 }
 
 
@@ -103,7 +102,7 @@ a {
     margin-left: 8%;
     margin-top: -19%;
     font-size: 4em;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #8a47d7;
     position: absolute;
     text-align: center;
@@ -118,6 +117,11 @@ a {
     line-height: 20px;
     position: absolute;
     text-align: center;
+
+}
+
+.article-1 span{
+font-size: 1em;
 
 }
 
@@ -143,17 +147,17 @@ a {
 
 .article-2 h1 {
 
-    margin-left: 25%;
-    margin-top: -15%;
+    margin-left: 27%;
+    margin-top: -17%;
     font-size: 4em;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #8a47d7;
     position: absolute;
 }
 
 .article-2 p {
 
-    margin-top: -11%;
+    margin-top: -13%;
     padding-left: 27%;
     font-size: 1em;
     font-family: 'Noto Sans', sans-serif;
@@ -166,55 +170,15 @@ a {
 
 
 
-.article-3 {
 
-    margin-top: 2%;
+footer h1 {
 
-
-}
-
-.article-3 p {
-
-    font-family: 'Raleway', sans-serif;
-    font-size: 1.8em;
-    color: white;
-    padding-left: 1%;
-    border-left: 20px solid;
-    color: white;
-
-
-}
-
-.article-3 span.name {
-
-    font-size: 20px;
-    color: #d9afd9;
-
-}
-
-.article-4 {
-
-
-    margin-top: 2%;
-    margin-bottom: 2%;
-
-}
-
-
-.article-4 p {
-
-    margin-top: -22%;
-    margin-left: 33%;
-    color: white;
-    position: absolute;
-    text-align: left;
-    font-family: 'Oswald', sans-serif;
-    font-size: 3em;
-    padding-top: -4%;
-    transform: translate3d(-50%, -50%, 0);
-    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
-
-
+    position: relative;
+    font-size: 2em;
+    color: black;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    padding-top:4%
 }
 
 
@@ -222,22 +186,23 @@ footer {
 
     margin-top: 2%;
     margin-bottom: 2%;
-    background-color: #d9afd9;
+  
 }
 
 footer p {
-    font-size: 1.5em;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    font-size: 1.3em;
+   padding-top: 2%;
+    position: relative;
     text-align: center;
-    color: white;
+  
 }
+
 
 
 /*menu*/
 
 .menu {
-    background-border-color: #8a47d7;; 
+    background-color: #8a47d7;; 
     margin-top: 2%;
     margin-bottom: 2%;
     height: 750px
