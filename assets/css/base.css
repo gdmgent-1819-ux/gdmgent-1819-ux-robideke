@@ -860,7 +860,7 @@ figure.review-star {
 }
 .Name.is-expanded .LPHA {
   max-width: none;
-  transition: transform 500ms 125ms ease, opacity 200ms 275ms;
+  transition: transform 750ms 50ms ease, opacity 200ms 275ms;
 }
 
 .H,
@@ -868,13 +868,6 @@ figure.review-star {
   opacity: 0;
 }
 
-
-.O {
-  position: relative;
-  z-index: 1;
-  animation: oEnter 1000ms ease-in-out;
-  animation-fill-mode: forwards;
-}
 
 .LPHA {
   transform: translateX(-10%);
