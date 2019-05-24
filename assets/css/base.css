@@ -52,8 +52,8 @@ a {
 
 .intro h1 {
   position: absolute;
-  top: 35%;
-  left: 21%;
+  top: 36%;
+  left: 22%;
   transform: translate3d(-50%, -50%, 0);
   text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
   font-size: 7em;
@@ -66,10 +66,10 @@ a {
 .intro h2 {
   position: absolute;
   top: 45%;
-  left: 34%;
+  left: 27%;
   transform: translate3d(-50%, -50%, 0);
   text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
-  font-size: 5em;
+  font-size: 3em;
   color: #FFF;
   font-family: 'Titillium Web', sans-serif;
   text-align: left;
@@ -207,7 +207,7 @@ footer h1 {
 
 footer {
 
-  margin-top: 2%;
+  margin-top: 5%;
   margin-bottom: 2%;
 
 }
@@ -787,6 +787,9 @@ p.review {
 
 }
 
+
+
+
 figure.review-star {
 
   margin-left: 48%;
@@ -836,3 +839,56 @@ figure.review-star {
   padding: 5%;
   
 }
+
+
+/* animatie */
+.Name {
+  text-align: center;
+}
+
+.Name-part {
+  display: inline-block;
+}
+
+.Name.is-expanded .H,
+.Name.is-expanded .LPHA {
+  transform: translateX(0);
+  opacity: 1;
+}
+.Name.is-expanded .H {
+  transition: opacity 200ms 100ms;
+}
+.Name.is-expanded .LPHA {
+  max-width: none;
+  transition: transform 500ms 125ms ease, opacity 200ms 275ms;
+}
+
+.H,
+.LPHA {
+  opacity: 0;
+}
+
+
+.O {
+  position: relative;
+  z-index: 1;
+  animation: oEnter 1000ms ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.LPHA {
+  transform: translateX(-10%);
+  transition: opacity 50ms;
+}
+
+@keyframes oEnter {
+  0% {
+    color: white;
+    opacity: 0;
+  }
+  100% {
+    color: rgb(255, 255, 255);
+    opacity: 1;
+  }
+}
+
