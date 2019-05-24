@@ -34,8 +34,8 @@ a {
 .wrapper {
 
   margin: 0 auto;
-  width: 1280px;
-  ;
+  width: 1400px;
+
 }
 
 
@@ -229,39 +229,6 @@ footer p {
 
 
 
-
-
-
-/*menu*/
-
-.menu {
-  margin-top: 2%;
-  margin-bottom: 2%;
-  height: 420px
-}
-
-.menu .titel h1 {
-  margin-left: 3%;
-  font-size: 3em;
-  font-family: 'Ubuntu', sans-serif;
-  color: #8a47d7;
-  position: absolute;
-  text-align: left;
-
-}
-
-.menu p {
-
-  position: absolute;
-
-  padding: 1.2%;
-  line-height: 20px;
-
-  font-size: 18px;
-  color: rgb(197, 104, 104);
-  font-family: 'Quicksand', sans-serif;
-  text-align: left;
-}
 
 
 
@@ -543,6 +510,85 @@ footer p {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media (min-width: 420px) and (max-width: 767px) {
+
+  .wrapper {
+
+    margin: 0 auto;
+    max-width: 760px;
+  
+  }
+  .intro {
+    background: url(../images/EIND11.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 550px;
+    width: 1280px;
+  }
+  
+  .intro h1 {
+    position: absolute;
+    top: 35%;
+    left: 52%;
+    transform: translate3d(-50%, -50%, 0);
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+    font-size: 7em;
+    color: #FFF;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+  
+  }
+  
+  .intro h2 {
+    position: absolute;
+    top: 45%;
+    left: 34%;
+    transform: translate3d(-50%, -50%, 0);
+    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
+    font-size: 5em;
+    color: #FFF;
+    font-family: 'Titillium Web', sans-serif;
+    text-align: left;
+  
+  }
+  
+  
+  .intro p {
+  
+    position: absolute;
+    top: 32%;
+    left: 53%;
+    padding: 1.2%;
+    line-height: 20px;
+    transform: translate3d(-50%, -50%, 0);
+    font-size: 18px;
+    color: #FFF;
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+  
+  }
+
+
+}
+
+
+*/
+
 a.bttn {
   color: rgb(255, 255, 255);
   text-decoration: none;
@@ -743,7 +789,7 @@ p.review {
 
 figure.review-star {
 
-  margin-left: 40%;
+  margin-left: 48%;
   margin-top: -8%;
   position: absolute;
 }
