@@ -53,7 +53,7 @@ $(document).ready(function() {
 });
 
 
-
+//Alpha fade
 function delayedAlert() {
   var timeoutID = window.setTimeout(expandLogo, 1000);
 }
@@ -61,3 +61,7 @@ function expandLogo() {
   $('.Name').addClass('is-expanded');
 }
 delayedAlert();
+
+
+
+ 

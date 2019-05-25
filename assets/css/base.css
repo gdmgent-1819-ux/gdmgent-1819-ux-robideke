@@ -542,6 +542,8 @@ a.bttn-dark {
   text-decoration: none;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s ease all;
+  text-shadow: 2px 2px #8a47d7;
+  box-shadow: 2px 2px #8a47d7
 }
 
 a.bttn-dark:hover {
@@ -569,6 +571,8 @@ a.bttn-dark2 {
   text-decoration: none;
   -webkit-transition: 0.3s all ease;
   transition: 0.3s ease all;
+  text-shadow: 2px 2px #8a47d7;
+  box-shadow: 2px 2px #8a47d7;
 }
 
 a.bttn-dark2:hover {
@@ -825,3 +829,85 @@ figure.review-star {
   }
 }
 
+
+
+.mouse_wave {
+	display: block;
+	margin: 0 auto;
+	width: 24px;
+	height: 500x;
+	margin-top: -6%;
+}
+.scroll_arrows
+{
+  display: block;
+  width: 5px;
+  height: 5px;
+  -ms-transform: rotate(45deg); /* IE 9 */
+  -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+  transform: rotate(45deg);
+   
+  border-right: 4px solid #8a47d7;
+  border-bottom: 4px solid #8a47d7;
+  margin: 0 0 3px 4px;
+  
+  width: 16px;
+  height: 16px;
+}
+.onep
+{
+  margin-top: 1px;
+}
+.onep, .twop, .threep
+{
+    -webkit-animation: mouse-wave 1s infinite;
+    -moz-animation: mouse-wave 1s infinite;
+}
+.onep
+{
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
+  -webkit-animation-direction: alternate;
+}
+
+.twop
+{
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
+  -webkit-animation-direction: alternate;
+  margin-top: -6px;
+}
+
+.threep
+{
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
+  -webkit-animation-direction: alternate;
+  margin-top: -6px;
+}
+
+
+@-webkit-keyframes mouse-wave {
+
+  0%   { opacity: 0;}
+  50%  { opacity: .5;}
+  100% { opacity: 1;}
+}
+@-moz-keyframes mouse-wave {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@-o-keyframes mouse-wave {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
+@keyframes mouse-wave {
+
+  0%   { opacity: 0; }
+  50%  { opacity: .5; }
+  100% { opacity: 1; }
+}
