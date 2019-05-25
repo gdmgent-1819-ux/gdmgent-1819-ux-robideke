@@ -5,7 +5,11 @@
 body {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
-
+    margin-right: auto;
+    margin-left:  auto;
+    max-width: 1400px;
+   
+  
 
 }
 
@@ -31,20 +35,21 @@ a {
   display: none;
 }
 
-.wrapper {
+.container {
 
-  margin: 0 auto;
-  width: 1400px;
+  max-width: 1920px; /* 20px smaller, to fit the paddings on the sides */
+  padding-right: 10px;
+  padding-left: 10px;
 
 }
 
 
 .intro {
-  background: url(../images/EIND11.jpg)no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../images/EIND11.jpg)no-repeat center center fixed ;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
   margin-top: 5%;
   margin-bottom: 10%;
   height: 750px
@@ -52,14 +57,15 @@ a {
 
 .intro h1 {
   position: absolute;
-  top: 36%;
-  left: 22%;
-  transform: translate3d(-50%, -50%, 0);
+  left: 50%;
+  top: 35%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
   font-size: 7em;
   color: #FFF;
   font-family: 'Titillium Web', sans-serif;
-  text-align: left;
+ 
 
 }
 
@@ -110,7 +116,7 @@ a {
 
 .article-1 img {
 
-  margin-left: 66%;
+ float: right;
   margin-top: 2%;
 
 }
@@ -119,7 +125,7 @@ a {
 .article-1 h1 {
 
   margin-left: 3%;
-  margin-top: -19%;
+  margin-top: 2%;
   font-size: 3em;
   font-family: 'Ubuntu', sans-serif;
   color: #8a47d7;
@@ -130,7 +136,7 @@ a {
 .article-1 p {
 
   margin-left: 3%;
-  margin-top: -15%;
+  margin-top: 6%;
   font-size: 1em;
   font-family: 'Noto Sans', sans-serif;
   line-height: 20px;
@@ -155,7 +161,6 @@ a {
 
 .article-2 img {
 
-  margin-left: -10%;
   margin-top: 6%;
   position: relative;
 
@@ -166,7 +171,7 @@ a {
 
 .article-2 h1 {
 
-  margin-left: 27%;
+  margin-left: 35%;
   margin-top: -19%;
   font-size: 3em;
   font-family: 'Ubuntu', sans-serif;
@@ -177,7 +182,7 @@ a {
 .article-2 p {
 
   margin-top: -15%;
-  padding-left: 27%;
+  padding-left: 35%;
   font-size: 1em;
   font-family: 'Noto Sans', sans-serif;
   color: black;
@@ -191,7 +196,6 @@ a {
 a {
   text-decoration: none;
   color: white;
-  ;
 }
 
 footer h1 {
@@ -207,8 +211,11 @@ footer h1 {
 
 footer {
 
-  margin-top: 5%;
-  margin-bottom: 2%;
+  position: relative;
+  left: 50%;
+  top: 58%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
 }
 
@@ -510,84 +517,8 @@ footer p {
 
 
 
+ 
 
-
-
-
-
-
-
-
-
-
-
-
-/* 
-@media (min-width: 420px) and (max-width: 767px) {
-
-  .wrapper {
-
-    margin: 0 auto;
-    max-width: 760px;
-  
-  }
-  .intro {
-    background: url(../images/EIND11.jpg);
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 550px;
-    width: 1280px;
-  }
-  
-  .intro h1 {
-    position: absolute;
-    top: 35%;
-    left: 52%;
-    transform: translate3d(-50%, -50%, 0);
-    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
-    font-size: 7em;
-    color: #FFF;
-    font-family: 'Titillium Web', sans-serif;
-    text-align: left;
-  
-  }
-  
-  .intro h2 {
-    position: absolute;
-    top: 45%;
-    left: 34%;
-    transform: translate3d(-50%, -50%, 0);
-    text-shadow: 1px 2px 8px rgba(0, 0, 0, 0.3);
-    font-size: 5em;
-    color: #FFF;
-    font-family: 'Titillium Web', sans-serif;
-    text-align: left;
-  
-  }
-  
-  
-  .intro p {
-  
-    position: absolute;
-    top: 32%;
-    left: 53%;
-    padding: 1.2%;
-    line-height: 20px;
-    transform: translate3d(-50%, -50%, 0);
-    font-size: 18px;
-    color: #FFF;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-  
-  }
-
-
-}
-
-
-*/
 
 a.bttn {
   color: rgb(255, 255, 255);
@@ -660,8 +591,10 @@ a.bttn-dark2:focus {
   border: 3px solid #ffffff;
   border-radius: 2px;
   position: absolute;
-  top: 60%;
-  left: 14%;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
   z-index: 2;
 }
@@ -678,8 +611,10 @@ a.bttn-dark2:focus {
   border: 3px solid #ffffff;
   border-radius: 2px;
   position: absolute;
-  top: 52%;
-  left: 14%;
+  left: 50%;
+  top: 58%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.1);
   z-index: 2;
 }
@@ -759,6 +694,11 @@ h2.title-reviews {
   padding-top: 5%;
   font-family: 'Ubuntu', sans-serif;
   font-size: 2vw;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
 }
 
