@@ -2,6 +2,6 @@
 
 - Voornaam:Robin
 - Familienaam: De Kesel
-- Studentnummer: 
-- Klasgroep: 
+- Studentnummer: 106308
+- Klasgroep: 1MMPA
 - UX prototype link: 
