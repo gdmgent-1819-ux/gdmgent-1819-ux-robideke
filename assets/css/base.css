@@ -491,30 +491,6 @@ footer p {
 
 
 
-@media screen and (max-width: 1920px) {
-
-
-
-  .intro p {
-
-    position: absolute;
-    top: 45%;
-    left: 57%;
-    padding: 1.2%;
-    line-height: 20px;
-    transform: translate3d(-50%, -50%, 0);
-    font-size: 15px;
-    color: #FFF;
-    font-family: 'Quicksand', sans-serif;
-    text-align: left;
-    transition: all 0.2s ease;
-    background-color: rgba(192, 192, 192, 0.5)
-  }
-
-
-
-}
-
 
 
  
@@ -543,7 +519,7 @@ a.bttn-dark {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s ease all;
   text-shadow: 2px 2px #8a47d7;
-  box-shadow: 2px 2px #8a47d7
+ 
 }
 
 a.bttn-dark:hover {
@@ -572,7 +548,7 @@ a.bttn-dark2 {
   -webkit-transition: 0.3s all ease;
   transition: 0.3s ease all;
   text-shadow: 2px 2px #8a47d7;
-  box-shadow: 2px 2px #8a47d7;
+
 }
 
 a.bttn-dark2:hover {
