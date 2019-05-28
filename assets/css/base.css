@@ -690,8 +690,10 @@ h3.review {
   font-family: 'Ubuntu', sans-serif;
   color: #000000;
   font-size: 1.2vw;
-  padding-left: 8%;
-  margin-top: 2%;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 p.review {
@@ -700,10 +702,13 @@ p.review {
   font-family: 'Noto Sans', sans-serif;
   line-height: 20px;
   max-width: 55%;
-  padding-left: 9%;
-  padding-top: 1%;
   padding-bottom: 5%;
-  text-align: justify;
+   position: relative;
+  left: 50%;
+  margin-top: 7%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 
 }
 
@@ -712,9 +717,11 @@ p.review {
 
 figure.review-star {
 
-  margin-left: 48%;
-  margin-top: -8%;
   position: absolute;
+  left: 50%;
+ padding-bottom: 10%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 
